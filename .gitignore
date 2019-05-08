@@ -1,0 +1,5 @@
+# Mac generated
+*.DS_Store
+
+# Test directories
+tutorial/

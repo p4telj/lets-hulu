@@ -1,0 +1,27 @@
+{
+    "name": "Let's Hulu",
+    "version": "1.0",
+    "description": "Hulu Watch Parties!",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/tmp_favicon.png",
+            "32": "images/tmp_favicon.png",
+            "48": "images/tmp_favicon.png",
+            "128": "images/tmp_favicon.png"
+          }
+    },
+    "icons": {
+        "16": "images/tmp_favicon.png",
+        "32": "images/tmp_favicon.png",
+        "48": "images/tmp_favicon.png",
+        "128": "images/tmp_favicon.png"
+    },
+    "options_page": "options.html",
+    "manifest_version": 2
+}
