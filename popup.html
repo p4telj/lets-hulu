@@ -1,17 +1,33 @@
-
+<!-- 
+popup.html
+Jimil Patel <pateljim@umich.edu>
+Extension popup
+-->
 <!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      button {
-        height: 30px;
-        width: 30px;
-        outline: none;
-      }
-    </style>
-  </head>
-  <body>
-    <button id="changeColor"></button>
-    <script src="popup.js"></script>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Let's Hulu: Hulu with Friends.">
+        <meta name="keywords" content="Hulu,Party,Friends">
+        <meta name="author" content="Jimil Patel">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <div id="header">
+            <img src="images/logo.png">
+            <i class="fas fa-times fa-lg"></i>
+        </div>
+        <div id="body">
+            <h2>Let's Hulu!</h2>
+            <h3>Hulu with Friends.</h3>
+            <h1>Currently Playing:</h1>
+            <div id="current">
+                <p>Nothing yet...</p>
+            </div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
 </html>

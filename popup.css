@@ -1,0 +1,58 @@
+body {
+    width: 200px;
+    margin: 0;
+    text-align: center;
+}
+
+#header {
+    background-color: rgb(254, 255, 255);
+    border-bottom: 1px solid rgb(238, 238, 238); 
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 2px 6px;
+}
+
+#header > img {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#header > i {
+    float: right;
+    position: fixed;
+    color: lightgray;
+    right: 10px;
+    top: 10px;
+}
+
+#body {
+    margin-bottom: 20px;
+}
+
+#body > h2 {
+    margin-bottom: 8px;
+    font-weight: 100;
+}
+
+#body > h3 {
+    margin-top: 0px;
+    font-weight: 100;
+}
+
+#go {
+    width: 100%;
+    padding: 13px 0 13px 0;
+
+    letter-spacing: 1.1px;
+    font-size: 2.3em;
+    font-family: system-ui, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+
+    color: white;
+    border: none;
+    border-radius: 1px;
+
+    background: #3bb93b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #56b379, #3bb93b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56b379, #3bb93b);
+}
